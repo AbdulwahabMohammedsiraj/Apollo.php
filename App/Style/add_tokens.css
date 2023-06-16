@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --main-color: #577CFF;
+    --second-main-color: #deecf0;
+    --main-bg-color: #fff;
+    --second-bg-color: #ededed;
+    --third-bg-color: #c8c9ca;
+    --main-text-color: #000;
+    --second-text-color: #fff;
+    --third-text-color: #737373;
+}
+
+body {
+    background: var(--main-bg-color);
+    color: var(--main-text-color);
+    height: 100vh;
+}
+
+.token-wrap {
+     border: 1px solid rgba(128, 128, 128, 0.438);
+    /* box-shadow: 0 0 1rem var(--main-color); */
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+
+    margin: 1.5rem auto;
+    background-color: var(--main-bg-color);
+
+    height: 620px;
+    width: 1150px;
+
+    padding: ;
+}
+
+.token-wrap h1 {
+    margin: 1.5rem;
+    font-weight: 400;
+}
+
+.token-form {
+    border-radius: 11px;
+    margin: 1.3rem 1.5rem;
+        
+    height: 510px;
+}
+
+label, p {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.display {
+    border-radius: 4px;
+    border: var(--third-text-color) 1px solid;
+    width: 200px;
+    height: 28px;
+
+    margin: 0.8rem 0px;
+}
+
+#amount-to-buy {
+    margin: 0.8rem 0px;
+}
+
+select,input {
+    width: 280px;
+    height: 33px;
+
+    color: var(--third-text-color);
+}
+
+.statements {
+    margin-top: 1.5rem;
+    margin-bottom: 0.9rem;
+}
+
+.statement-1 {
+    margin-bottom: 0.9rem;
+    color: rgb(92, 86, 86);
+}
+
+.statement-2 {
+    color: rgb(92, 86, 86);
+}
+
+.statements a {
+    color: #1a45df;
+}
+
+.statements a:hover {
+    color: #062492;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    padding: 0.45rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 11px;
+} 
+
+.buy-btn {
+    margin-right: 2.5rem;
+    background-color: #1341e8;
+    color: var(--second-text-color);
+
+    width: 145px;
+}
+
+.buy-btn:hover {
+    background-color: #062492;
+}
+
+.cancel-btn {
+    margin: 0px 1.4rem;
+    width: 100px;
+    background-color: transparent;
+    color: #062492;
+    border: none;
+}
+
+.cancel-btn:hover {
+    background-color: var(--third-bg-color);
+    border: 1px solid var(--third-bg-color);
+    color: var(--main-text-color);
+}
+
+.input {
+    display: none;
+}
+
+#input-custom-amount {
+    width: 280px;
+    height: 33px;
+
+    color: var(--third-text-color);
+
+    border-radius: 4px;
+    border: 1px solid;
+
+    margin: 0.8rem 0px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.token-amout {
+    font-weight: 300;
+    font-size: 13px;
+    padding: 5px 8px;
+}
+
+
